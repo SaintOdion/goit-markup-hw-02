@@ -43,10 +43,10 @@ color: #000;
 .header-contacts a:hover {
     color: #2196F3;
 }
-.main{
+.base{
     background-color: #2F303A;
 }
-.main h1{
+.base h1{
     color: #FFF;
     
         text-align: center;
@@ -58,7 +58,7 @@ color: #000;
         letter-spacing: 2.64px;
         text-transform: uppercase;
 }
-.main-order {
+.base-order {
     color: #FFF;
     
         text-align: center;
