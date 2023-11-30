@@ -4,6 +4,15 @@ a {
 li {
     list-style-type: none;
 }
+:root {
+    --selection-color: #2196F3;
+}
+:root {
+    --head-name: #212121;
+}
+:root {
+    --text-name: #757575;
+}
 .header-logo {
 color: #000;
     font-family: Raleway;
@@ -14,10 +23,10 @@ color: #000;
     letter-spacing: 0.78px;
 }
 .header-logo span{
-    color: #2196F3;
+    color: var(--selection-color);
 }
 .header-navigation a{
-    color: #212121;
+    color: var(--head-name);
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -27,10 +36,10 @@ color: #000;
 }
 .header-navigation a:focus,
 .header-navigation a:hover{
-    color: #2196F3;
+    color: var(--selection-color);
 }
 .header-contacts a{
-    color: #757575;
+    color: var(--text-name);
     
         font-family: Roboto;
         font-size: 14px;
@@ -41,7 +50,7 @@ color: #000;
 }
 .header-contacts a:focus,
 .header-contacts a:hover {
-    color: #2196F3;
+    color: var(--selection-color);
 }
 .base{
     background-color: #2F303A;
@@ -68,10 +77,10 @@ color: #000;
         font-weight: 700;
         line-height: 1.875;
         letter-spacing: 0.96px;
-        background-color: #2196F3;
+        background-color: var(--selection-color);
 }
 .advantages-head {
-    color: #212121;
+    color: var(--head-name);
     
         font-family: Roboto;
         font-size: 14px;
@@ -82,7 +91,7 @@ color: #000;
         text-transform: uppercase;
 }
 .advantages-text {
-    color: #757575;
+    color: var(--text-name);
     
         font-family: Roboto;
         font-size: 14px;
@@ -92,7 +101,7 @@ color: #000;
         letter-spacing: 0.42px;
 }
 .about-head {
-    color: #212121;
+    color: var(--head-name);
     
         text-align: center;
         font-family: Roboto;
@@ -109,7 +118,7 @@ color: #000;
     background-color: #FFFFFF;
 }
 .team-head {
-    color: #212121;
+    color: var(--head-name);
 
     text-align: center;
     font-family: Roboto;
@@ -120,7 +129,7 @@ color: #000;
     letter-spacing: 1.08px;
 }
 .team-name {
-    color: #212121;
+    color: var(--head-name);
     
         text-align: center;
         font-family: Roboto;
@@ -131,7 +140,7 @@ color: #000;
         letter-spacing: 0.48px;
 }
 .team-profession {
-    color: #757575;
+    color: var(--text-name);
     
         text-align: center;
         font-family: Roboto;
@@ -155,7 +164,7 @@ footer {
 }
 
 .footer-logo span {
-    color: #2196F3;
+    color: var(--selection-color);
 }
 .footer-location {
 color: #FFF;
@@ -178,7 +187,7 @@ color: #FFF;
         letter-spacing: 0.42px;
 }
 .portfolio-button {
-    color: #212121;
+    color: var(--head-name);
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
@@ -189,11 +198,11 @@ color: #FFF;
         background-color: #F5F4FA;
 }
 .portfolio-button:hover, .portfolio-button:focus {
-    background-color: #2196F3;
+    background-color: var(--selection-color)#2196F3;
     color: #FFFFFF;
 }
 .portfolio-head {
-    color: #212121;
+    color: var(--head-name);
         font-family: Roboto;
         font-size: 18px;
         font-style: normal;
@@ -202,7 +211,7 @@ color: #FFF;
         letter-spacing: 1.08px;
 }
 .portfolio-text {
-    color: #757575;
+    color: var(--text-name);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
